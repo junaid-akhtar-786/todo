@@ -1,0 +1,135 @@
+body{
+    background-color:rgb(61, 10, 10);
+    margin: 0;
+    padding: 0;
+    
+}
+
+.navbar{
+    background: #000;
+    height: 4rem;
+}
+
+.navbar img{
+    height: 3rem;
+    width: 4rem;
+    margin-left: 3rem;
+    margin-top: .5rem;
+}
+
+.navbar p{
+    color: rgb(251, 224, 147);
+    display: inline-block;
+    font-size: 15px;
+}
+
+.mainItem{
+    width: 28rem;
+    min-height: 30rem;
+    max-height: auto;
+    margin: auto;
+    border: 3px solid rgb(250, 208, 69);
+    box-shadow: -3px -3px 8px burlywood;
+    margin-top: 1.5rem;
+    background-color: rgb(255, 248, 182);
+}
+.fullData{
+    margin-top: 3rem;
+    margin-left: 3rem;
+}
+
+.fullData input{
+    background-color: rgb(248, 241, 185);
+    width: 22rem;
+    border: none;
+    font-size: 33px;
+    border-bottom: 3px solid rgb(80, 24, 24);
+   
+}
+
+.fullData input:focus{
+    outline: none;
+    border-bottom:2px solid black;
+    box-shadow: 0px 2px 1px rgb(255, 230, 147);
+
+}
+
+.btns{
+    margin-top: 2rem;
+    margin-left: 3rem;
+}
+
+.btns button{
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 2px;
+    margin-top: -3rem;
+    margin-left: 3rem;
+    width: 100px;
+    height: 30px;
+    background-color: rgba(128, 128, 0, 0.74);
+    color: rgb(139, 37, 37);
+    font-weight: bold;
+    outline: none;
+    border: none;
+   
+}
+
+.btns button:hover{
+   background-color: rgba(97, 97, 2, 0.972); 
+   color: rgb(139, 37, 37);
+   font-weight:normal;
+}
+
+.post{
+    background-color: whitesmoke;
+    margin: auto;
+    padding: 4px;
+    width: 26rem;
+    margin-top: 0.5rem;
+    margin-bottom: 5px;
+    border: 2px solid rgb(139, 37, 37);
+    box-shadow: -2px -2px 2px rgb(250, 208, 69);
+    border-radius: 8px;
+}
+
+.del8{
+    background-color: rgba(64, 102, 216, 0.815);
+    border: none;
+    outline: none;
+    color: rgb(104, 27, 18);
+    margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 20rem;
+    
+}
+
+.edit{
+    background-color: rgba(64, 102, 216, 0.815);
+    border: none;
+    outline: none;
+    color: rgb(104, 27, 18);
+    margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 0.5rem;
+}
+
+.update{
+    background-color: rgba(64, 102, 216, 0.815);
+    border: none;
+    outline: none;
+    color: rgb(104, 27, 18);
+    margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 0rem;
+}
+
+
+#input{
+    margin: auto;
+    height: auto;
+}
+
+.hid{
+    display: none;
+}
